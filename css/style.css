@@ -1,0 +1,102 @@
+body {
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #ccccff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  opacity: 0.6;
+}
+
+header {
+  background: url('../img/tlo.jpg');
+  padding: 30px;
+  text-align: center;
+}
+
+header p {
+    color: #fff;
+    margin: 0 auto;
+    max-width: 640px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    line-height: 1.8;
+}
+
+h1 {
+  color: #b23b6b;
+  font-family: 'Itim', cursive;
+}
+
+h3 {
+  padding: 0 13px;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border: 3px solid #b23b6b;
+  border-radius: 50%;
+}
+
+.contener {
+  background-color: #fddde6;
+  max-width: 80%;
+  min-height: 400px;
+  margin: 10px auto;
+}
+
+.center {
+  text-align: center;
+}
+
+.center img {
+   border: 5px dashed #aaccee;
+}
+
+aside {
+  background-color: #73a9c2;
+  display: inline-block;
+  float: left;
+  min-height: 400px;
+  width:30%;
+}
+
+aside p {
+  padding: 5px;
+}
+
+main {
+  background-color: #fdbcb4;
+  width:70%;
+  display: inline-block;
+  min-height: 400px;
+}
+
+ul.custom-bullets {
+  list-style-type: none;
+  margin:5px;
+  padding:5px;
+
+}
+
+ul.custom-bullets li:before {
+  content: "★";
+  color: yellow;
+  padding-right: 5px;
+}
+
+footer {
+  background-color: #e5e4e2;
+  padding:20px;
+}
+
+footer p {
+  text-align: center;
+}
